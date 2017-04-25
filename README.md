@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-essen/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-essen/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-essen/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-essen/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-essen/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-essen/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-essen/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-essen/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-essen/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-essen/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-essen/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-essen/build/coverage.html/index.html)
 
@@ -35,18 +35,15 @@
 ```json
 
 {
-    "name": "essen",
-    "version": "0.3.19",
-    "description": "Minimalistic nodejs MVC framework",
-    "main": "index.js",
+    "author": {
+        "name": "externuz@gmail.com"
+    },
     "bin": {
         "essen": "index.js"
     },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/externuz/essen.git"
+    "bugs": {
+        "url": "https://github.com/externuz/essen/issues"
     },
-    "homepage": "https://github.com/externuz/essen#readme",
     "dependencies": {
         "async": "^2.1.4",
         "body-parser": "^1.16.0",
@@ -58,6 +55,15 @@
         "winston": "^2.3.1",
         "yargs": "^7.0.2"
     },
+    "description": "Minimalistic nodejs MVC framework",
+    "devDependencies": {},
+    "directories": {},
+    "dist": {
+        "shasum": "08b90d5d2fabd5224e9fb1f2aee45e29e3075765",
+        "tarball": "https://registry.npmjs.org/essen/-/essen-0.3.19.tgz"
+    },
+    "gitHead": "273e13df138145c65134e1b985cf9b4589b4fef6",
+    "homepage": "https://github.com/externuz/essen#readme",
     "keywords": [
         "essen",
         "essenjs",
@@ -67,11 +73,21 @@
         "framework",
         "backend"
     ],
-    "author": "externuz@gmail.com",
     "license": "ISC",
-    "bugs": {
-        "url": "https://github.com/externuz/essen/issues"
-    }
+    "main": "index.js",
+    "maintainers": [
+        {
+            "name": "externuz"
+        }
+    ],
+    "name": "essen",
+    "optionalDependencies": {},
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/externuz/essen.git"
+    },
+    "scripts": {},
+    "version": "0.3.19"
 }
 ```
 
